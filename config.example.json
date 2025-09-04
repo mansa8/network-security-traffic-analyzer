@@ -1,0 +1,22 @@
+{
+    "injection_rules": [
+        {
+            "pattern": "</body>",
+            "injection": "<script>console.log('MITM Simulation Active - Educational Use')</script></body>",
+            "description": "Educational injection marker"
+        }
+    ],
+    "credential_patterns": [
+        "username=([^&]+)",
+        "user=([^&]+)",
+        "email=([^&]+)",
+        "login=([^&]+)",
+        "password=([^&]+)",
+        "pass=([^&]+)",
+        "pwd=([^&]+)"
+    ],
+    "monitor_all_hosts": false,
+    "capture_dns": true,
+    "detect_deauth": true,
+    "http_port": 8080
+}
