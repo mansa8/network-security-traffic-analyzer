@@ -1,17 +1,4 @@
 #!/usr/bin/env python3
-"""
-Advanced ARP Spoofer with Modern MITM Capabilities
-- SSL/TLS Stripping
-- Real-time Content Injection
-- Live Traffic Analysis Dashboard with Authentication
-- Session Hijacking Detection
-- Credential Harvesting Detection
-- Network Reconnaissance
-- JSON Configuration
-- Multi-threaded Architecture
-- Proper MAC Vendor Lookup
-- Complete Wireless Features
-"""
 
 import argparse
 import base64
