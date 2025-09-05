@@ -7,13 +7,13 @@
 > SQLite persistence. It includes a JSON‑configurable injection engine for controlled **MITM simulation** in an
 > isolated environment.
 
-## ⚖️ Ethical Use
+## Ethical Use
 
 This software is provided **for educational, research, and authorized penetration testing labs only**.
 Using it on networks **without explicit written permission** may be illegal. By using this software, you agree to the
 terms in **ETHICAL_USE.md** and the license.
 
-## ✨ Features (high level)
+## Features (high level)
 - Host discovery and device vendor identification (OUI lookup database)
 - Live web dashboard (Basic Auth) with stats, requests, sessions, credentials, hosts
 - Session anomaly/hijack detection (e.g., `PHPSESSID`, `JSESSIONID`)
@@ -24,7 +24,7 @@ terms in **ETHICAL_USE.md** and the license.
 - JSON configuration for rules and runtime options
 - Multi‑threaded architecture (sniffer, ARP spoof loop, dashboard server)
 
-## 🧱 Project Structure
+## Project Structure
 ```
 .
 ├── ETHICAL_USE.md
@@ -36,7 +36,7 @@ terms in **ETHICAL_USE.md** and the license.
     └── arper.py
 ```
 
-## 🚀 Quick Start (Lab Only)
+## Quick Start (Lab Only)
 > Tested on Linux with Python 3.10+. You need **root privileges** (or `CAP_NET_RAW`) for packet operations.
 
 1. Create and activate a virtual environment:
@@ -57,15 +57,15 @@ terms in **ETHICAL_USE.md** and the license.
 
 > **Note:** Modern HTTPS protections (HSTS, certificate pinning) limit downgrade attacks. This tool focuses on **controlled simulation** and **defensive analytics** in lab settings.
 
-## ⚙️ Configuration
+## Configuration
 Provide a JSON config (e.g., `config.json`) to control injection rules, credential patterns, dashboard auth, and wireless monitoring. See inline defaults inside `src/arper.py` for available keys.
 
-## 🧪 Suggested Lab Demo
+## Suggested Lab Demo
 - Spin up two Linux VMs and a lightweight web app with a dummy login form.
 - Use the tool to observe DNS/HTTP metadata, detect mock credentials, and see session anomalies.
 - Enable Wi‑Fi monitoring only with a dedicated adapter in monitor mode on an isolated test AP.
 
-## 📜 License & Attribution
+## License & Attribution
 - License: **GPL‑3.0** (see `LICENSE`)
 - Ethical Policy: see `ETHICAL_USE.md`
 - Built with: Python, Scapy, SQLite
@@ -73,3 +73,10 @@ Provide a JSON config (e.g., `config.json`) to control injection rules, credenti
 ---
 
 **Author:** Ishaq — Network Security Traffic Analyzer (MITM Simulation — Lab Only)
+
+## ☕ Support My Work
+
+If you find my projects helpful and want to support me, you can donate using the addresses below:
+
+- **USDT (TRC-20):** TAW81Mk7z7TTGRMMve91fgAyCGskXVvjy7
+
