@@ -76,7 +76,7 @@ Provide a JSON config (e.g., `config.json`) to control injection rules, credenti
 
 ## ☕ Support My Work
 
-If you find my projects helpful and want to support me, you can donate using the addresses below:
+If you find my projects helpful and want to support me, you can donate using the address below:
 
 - **USDT (TRC-20):** TAW81Mk7z7TTGRMMve91fgAyCGskXVvjy7
 
